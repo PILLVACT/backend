@@ -1,0 +1,120 @@
+#body{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+}
+#head{ 
+    
+    background-color: rgb(7, 4, 1);
+    color: white;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    
+}
+#welcome{
+    
+}
+#homes{
+    padding-top: 15px;
+}
+#home{
+    display: flex;
+    background-color: antiquewhite;
+    width: 300px;
+    height: 300px;
+}
+#h1Home{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+/* to show accound verification in the section of home*/
+#verifiedDiv{
+    padding-left: 150px;
+    padding-top: 10px;
+}
+#verified{
+           padding: 5px;
+           border: none;
+           background-color: antiquewhite;
+    
+}
+/* buttons settings*/
+#homeSettings{
+               align-items: center;
+               height: auto;
+               width: 300px;
+               position: relative;
+}
+#buttons{
+          justify-content: space-between;
+position: absolute;}
+/**/
+#savingAccountButton{
+                      width: 100%;padding: 10px;}
+/**/
+#WidrawButton{
+               width: 100%;padding: 10px;}
+/**/
+#PayButton{
+            width: 100%;padding: 10px;}
+/**/
+#BuyButton{
+            width: 100%;padding: 10px;
+}
+/*DEPOSIT (THE HOLDER OF ALL THE DEPOSITS PLANS)*/
+#DepositPlans{}
+/* All the deposit plans (investment plans)*/
+#DepositButton{
+               width: 100%;padding: 10px;
+               position: relative;
+               display: inline-block;
+               justify-content: space-between
+}
+  /* A*/
+    #A{
+        position: ;
+        border: 1PX solid black;
+        padding-top: 5px;
+        background-color: rgb(19, 110, 190);
+        list-style: none; 
+      }
+      input label .A .A{
+        display: block
+      }
+  /*end A*/
+
+  /* B*/
+    #B{
+      position: ;
+      border: 1PX solid black;
+      padding-top: 5px;
+      }
+  /*end B*/
+  /* C*/
+    #C{
+      position: ;
+      border: 1PX solid black;
+      padding-top: 5px;
+      }
+  /*end C*/
+  /* D*/
+    #D{position: ;
+      border: 1PX solid black;
+      padding-top: 5px;
+      }
+  /*end D*/
+#SettingsButton{width: 100%;padding: 15px;}
+/**/
+#ChangePIinButton{width: 100%;padding: 10px;}
+/**/
+#ContactUsButton{width: 100%;padding: 10px;}
+/**/
+#PrivacyButton{width: 100%;padding: 10px;}
+/**/
+#LogOutButton{width: 100%;padding: 5px;}
+/**/
+#buttonspace{
+    padding: 10px;
+}
