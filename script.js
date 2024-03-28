@@ -19,6 +19,8 @@ let maxD = 10000;
 document.getElementById("Dmin").textContent = (`$${minD}`);
 document.getElementById("Dmax").textContent = (`-$${maxD}`);
 
+//ALL SUBMIT PLAS
+
 const head = document.querySelector("#head");
 const home = document.querySelector("#home");
 const h1Home = document.querySelector("#h1Home");

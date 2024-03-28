@@ -50,12 +50,13 @@
 							<div id="A">
 								<button id="PlanA">Plant A <strong><span id="Amin"></span><span id="Amax"></span></strong>&#9660;</button>
                            <div id="optionA">
-                              <label for="#">Deposit Address</label>
-                              <button>4gr87iuklgferhouheruerguoeugupduwe</button>
-                              <label for="#">Amounts</label>
-                              <input type="text" placeholder="$50-$300" required>
-                              <label for="#">Payment proof</label>
-                              <input type="file">
+                              <label for="#">Deposit Address</label><br>
+                              <button>4gr87iuklgferhouheruerguoeugupduwe</button><br>
+                              <label for="#">Amount:</label>
+                              <input type="number" placeholder="$50-$300" required min="50" max="300"><br>
+                              <label for="#">Payment proof:</label><br>
+                              <input type="file" required><br>
+                              <button id="SubmitBplan">Submit</button><br>
                            </div>
 						   </div>
                   
@@ -66,9 +67,10 @@
                               <label for="#">Deposit Address</label>
                               <button>4gr87iuklgferhouheruerguoeugupduwe</button>
                               <label for="#">Amounts</label>
-                              <input type="text" placeholder="$301-$1,000" required>
+                              <input type="number" placeholder="$301-$1,000" min="301" max="1000" required>
                               <label for="#">Payment proof</label>
                               <input type="file">
+                              <button id="SubmitCplan">Submit</button>
    
                            </div>
 							</div>
@@ -79,9 +81,10 @@
                               <label for="#">Deposit Address</label>
                               <button>4gr87iuklgferhouheruerguoeugupduwe</button>
                               <label for="#">Amounts</label>
-                              <input type="text" placeholder="1,001$2,000" required>
+                              <input type="number" placeholder="1,001$2,000" min="1001" max="2000" required>
                               <label for="#">Payment proof</label>
                               <input type="file">
+                              <button id="SubmitDplan">Submit</button>
    
                            </div>
 							</div>
@@ -92,9 +95,10 @@
                               <label for="#">Deposit Address</label>
                               <button>4gr87iuklgferhouheruerguoeugupduwe</button>
                               <label for="#">Amounts</label>
-                              <input type="text" placeholder="$2,001-$10,000" required>
+                              <input type="number" placeholder="$2,001-$10,000" min="2001" max="10000" required>
                               <label for="#">Payment proof</label>
                               <input type="file">
+                              <button id="SubmitAplan">Submit</button>
    
                            </div>
 							</div>
