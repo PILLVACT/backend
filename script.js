@@ -1,3 +1,4 @@
+let Aplan = $50-$300;
 
 const head = document.querySelector("#head");
 const home = document.querySelector("#home");
