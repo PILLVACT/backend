@@ -1,4 +1,23 @@
-let Aplan = $50-$300;
+//Plan A output
+let minA = 50;
+let maxA = 300;
+document.getElementById("Amin").textContent = (`$${minA}`);
+document.getElementById("Amax").textContent = (`-$${maxA}`);
+//Plan B output
+let minB = 301;
+let maxB = 1000;
+document.getElementById("Bmin").textContent = (`$${minB}`);
+document.getElementById("Bmax").textContent = (`-$${maxB}`);
+//Plan C output
+let minC = 1001;
+let maxC = 2000;
+document.getElementById("Cmin").textContent = (`$${minC}`);
+document.getElementById("Cmax").textContent = (`-$${maxC}`);
+//Plan D output
+let minD = 2001;
+let maxD = 10000;
+document.getElementById("Dmin").textContent = (`$${minD}`);
+document.getElementById("Dmax").textContent = (`-$${maxD}`);
 
 const head = document.querySelector("#head");
 const home = document.querySelector("#home");
